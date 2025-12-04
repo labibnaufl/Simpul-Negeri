@@ -6,7 +6,7 @@ export interface Event {
   id: string
   title: string
   description: string | null
-  event_date: string | null // ISO string dari timestamp
+  event_date: string | null 
   location: string | null
   max_participants: number
   current_participants: number
@@ -28,12 +28,11 @@ export interface EventDetailResponse {
   userRegistration: VolunteerRegistration | null
 }
 
-// Volunteer Registration interface (untuk later)
+// Volunteer Registration interface (malas, nanti aja)
 export interface VolunteerRegistration {
   id: string
   event_id: string
   user_id: string
   status: string
   created_at: string
-  // tambahkan field lain sesuai table volunteer_registrations
 }

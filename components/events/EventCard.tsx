@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Calendar, MapPin, Users } from 'lucide-react'
-import {Event} from "@/lib/types/index"
+import {Event} from "@/lib/types/events"
 
 interface EventCardProps {
   event: Event
@@ -11,7 +11,9 @@ interface EventCardProps {
 
 export default function EventCard({ event }: EventCardProps) {
   // Format date
-  const formatDate = (dateString: string) => {
+    const formatDate = (dateString: string | null) => {
+    if (!dateString) return "Tanggal tidak tersedia"
+
     const date = new Date(dateString)
     return date.toLocaleDateString('id-ID', {
       weekday: 'long',

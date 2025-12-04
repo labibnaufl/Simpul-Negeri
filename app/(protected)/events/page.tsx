@@ -52,8 +52,8 @@ export default function EventsPage() {
         
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Event <span className="text-blue-600">Volunteer</span>
+          <h1 className="text-4xl font-bold text-yellow-400 mb-4">
+            Event <span className="text-blue-700">Volunteer</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Bergabunglah dengan kami dalam berbagai kegiatan sosial dan pengembangan masyarakat

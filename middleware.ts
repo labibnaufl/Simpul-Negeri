@@ -5,7 +5,7 @@ export async function middleware(request: NextRequest) {
   const { supabaseResponse, user } = await updateSession(request)
 
   // Protected routes - harus login
-  const protectedPaths = [ '/events', '/gallery', '/my-registrations', '/profile']
+  const protectedPaths = [ '/events/[id]', '/my-registrations', '/profile']
   const isProtectedPath = protectedPaths.some(path => 
     request.nextUrl.pathname.startsWith(path)
   )

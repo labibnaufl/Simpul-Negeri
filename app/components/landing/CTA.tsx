@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function CTA() {
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 to-yellow-50 py-24 overflow-hidden">
+    <section className="relative w-full bg-gradient-to-br from-blue-50 to-yellow-50 overflow-hidden flex flex-col justify-center items-center py-24">
       {/* Decorative Elements */}
 
       <div className="container relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,9 +17,9 @@ export default function CTA() {
           </div>
 
           {/* Main Heading */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-yellow-400 mb-6">
             Bergabunglah dengan{" "}
-            <span className="bg-blue-600 text-transparent bg-clip-text">
+            <span className="bg-blue-500 text-transparent bg-clip-text">
               Ribuan Relawan
             </span>
           </h2>
@@ -33,7 +33,7 @@ export default function CTA() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/events"
-              className="group bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2"
+              className="group bg-blue-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2"
             >
               <span>Lihat Event Tersedia</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

@@ -21,9 +21,9 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-blue-500 mb-6 drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl font-bold text-yellow-400 mb-6 drop-shadow-lg">
             Bersama Menginsprasi{' '}
-            <span className="text-yellow-400">Bangsa</span>
+            <span className="text-blue-500">Bangsa</span>
           </h1>
           <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto drop-shadow-md">
             Bergabunglah dengan ribuan relawan di seluruh Indonesia untuk membuat dampak positif bagi masyarakat.

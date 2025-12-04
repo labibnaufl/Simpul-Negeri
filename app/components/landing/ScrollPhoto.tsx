@@ -65,7 +65,7 @@ const ScrollCard: FC<ScrollCardProps> = memo(
                 {card.title}
               </h2>
               {/* Teks Deskripsi */}
-              <p className="max-w-md text-sm font-light md:text-base opacity-90">
+              <p className="max-w-md text-2xl font-light md:text-base opacity-90">
                 {card.description}
               </p>
             </div>
@@ -91,33 +91,33 @@ const CARDS_DATA: CardData[] = [
     id: 1,
     image: "/images/volunteer-1.jpg", // Ganti dengan path foto kamu
     tag: "Aksi 1",
-    title: "Gotong Royong Bersama",
+    title: "Voluntrip Simpul",
     description:
-      "Bergabunglah dalam kegiatan gotong royong membersihkan lingkungan.",
+      "Memberikan Pengalaman Seru Melalui Kegiatan dan Fun Activity Bersama Anak-anak.",
   },
   {
     id: 2,
     image: "/images/volunteer-2.jpg",
     tag: "Aksi 2",
-    title: "Berbagi dengan Sesama",
+    title: "Sahabat Desa",
     description:
-      "Membantu mereka yang membutuhkan dengan berbagi makanan dan pakaian.",
+      "Melakukan Penyuluham, Pelayanan Kesehatan, dan Pembagian Paket Gizi Kepada Masyarakat.",
   },
   {
     id: 3,
     image: "/images/volunteer-3.jpg",
     tag: "Aksi 3",
-    title: "Pendidikan untuk Semua",
+    title: "Bakti Sosial Kesehatan",
     description:
-      "Memberikan bimbingan belajar gratis untuk anak-anak kurang mampu.",
+      "Melakukan Kerja Sama untuk Membuka Pelayanan Kesehatan Sukarela dengan Tujuan Membantu Masyarakat.",
   },
   {
     id: 4,
     image: "/images/volunteer-4.jpg",
     tag: "Aksi 4",
-    title: "Penghijauan Kota",
+    title: "Gerakan Simpul Mengajar",
     description:
-      "Menanam pohon untuk lingkungan yang lebih hijau dan asri.",
+      "Mengajar dan Melakukan Kunjungan ke Berbagai Panti Asuhan.",
   },
 ];
 
@@ -255,9 +255,9 @@ export default function ScrollPhoto({
       }}
     >
       <div className="px-4 mb-8 text-center">
-        <h2 className="mb-4 text-4xl font-bold text-gray-900 md:text-5xl">
+        <h2 className="mb-4 text-4xl font-bold text-yellow-400 md:text-5xl">
           Aksi Nyata{" "}
-          <span className="text-yellow-400">Relawan</span>
+          <span className="text-blue-500">Relawan</span>
         </h2>
         <p className="max-w-2xl mx-auto text-lg text-gray-600 md:text-xl">
           Lihat berbagai kegiatan volunteer yang telah membuat dampak positif

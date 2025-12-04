@@ -105,9 +105,9 @@ export default function Testimonial() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold mb-4">
             Testimonial
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-4">
             Kata Mereka Tentang{" "}
-            <span className="text-yellow-400">Simpul Negeri</span>
+            <span className="text-blue-500">Simpul Negeri</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Ribuan volunteer telah merasakan dampak positif dari bergabung bersama kami
